@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="509.0" prefWidth="499.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.theproject3.MainInterfaces.Admin_Interface">
+    <children>
+      <Button id="button" layoutX="28.0" layoutY="49.0" mnemonicParsing="false" onAction="#Employees" prefHeight="55.0" prefWidth="443.0" text="Employees" />
+      <Button id="button" layoutX="28.0" layoutY="124.0" mnemonicParsing="false" onAction="#Products" prefHeight="55.0" prefWidth="443.0" text="Products" />
+      <Button id="button" layoutX="28.0" layoutY="349.0" mnemonicParsing="false" onAction="#ChangePassword" prefHeight="55.0" prefWidth="443.0" text="Change Password" />
+      <Button id="button" layoutX="28.0" layoutY="424.0" mnemonicParsing="false" onAction="#DeleteBills" prefHeight="55.0" prefWidth="443.0" text="Delete Bills" />
+      <Button id="button" layoutX="28.0" layoutY="198.0" mnemonicParsing="false" onAction="#CurrencyAndTax" prefHeight="55.0" prefWidth="443.0" text="Currency &amp; Tax " />
+      <Button id="button" layoutX="28.0" layoutY="274.0" mnemonicParsing="false" onAction="#IncomeStatistics" prefHeight="55.0" prefWidth="443.0" text="Income Statistics" />
+    </children>
+</AnchorPane>

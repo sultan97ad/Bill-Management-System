@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="Layout" prefHeight="441.0" prefWidth="1209.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.theproject3.MainInterfaces.IncomeStatistics">
+    <children>
+      <Button id="button" fx:id="Get" layoutX="46.0" layoutY="40.0" mnemonicParsing="false" onAction="#Get" prefHeight="42.0" prefWidth="182.0" text="Get" />
+      <TableView fx:id="InformationTable" layoutX="31.0" layoutY="109.0" prefHeight="306.0" prefWidth="1149.0">
+        <columns>
+          <TableColumn fx:id="Property" prefWidth="557.0" text="Property" />
+          <TableColumn fx:id="Value" prefWidth="585.0" text="Value" />
+        </columns>
+      </TableView>
+      <DatePicker fx:id="From" layoutX="256.0" layoutY="40.0" prefHeight="42.0" prefWidth="452.0" promptText="From" />
+      <DatePicker fx:id="To" layoutX="721.0" layoutY="40.0" prefHeight="42.0" prefWidth="452.0" promptText="To" />
+    </children>
+</AnchorPane>

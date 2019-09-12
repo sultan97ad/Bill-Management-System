@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="316.0" prefWidth="698.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.theproject3.Employees.Add">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="Add"  id = "button" layoutX="159.0" layoutY="220.0" mnemonicParsing="false" onAction="#Add" prefHeight="42.0" prefWidth="182.0" text="Add" />
+      <Button fx:id="Close" id = "button" layoutX="357.0" layoutY="220.0" mnemonicParsing="false" onAction="#Close" prefHeight="42.0" prefWidth="182.0" text="Close" />
+      <TextField fx:id="NameField" layoutX="265.0" layoutY="81.0" prefHeight="25.0" prefWidth="300.0" stylesheets="@../styles/Styles.css" />
+      <PasswordField fx:id="PasswordField" layoutX="265.0" layoutY="125.0" prefHeight="25.0" prefWidth="300.0" stylesheets="@../styles/Styles.css" />
+      <Text layoutX="186.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="62.13671875" />
+      <Text layoutX="186.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="62.13671875" />
+    </children>
+</AnchorPane>

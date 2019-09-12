@@ -1,0 +1,61 @@
+#button {
+   
+    
+    -fx-text-fill: white;
+    -fx-background-color: #2190ff;
+    -fx-padding: 5;
+    -fx-font-size: 20px;
+
+}
+#button:hover{
+    
+   
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.root{
+    
+    
+     -fx-font-family: "Agency FB";
+     -fx-background-color: white;
+  
+    
+}
+
+#Total {
+    
+    -fx-font-weight: bold;
+     -fx-font-family: "Agency FB"; 
+  
+}
+
+
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0.0%, #424141 100.0%);
+}
+
+.table-view .column-header-background .label{
+     -fx-background-color: transparent; 
+    -fx-font-weight:bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: #afafaf;
+}
+
+.table-view .table-column{
+    -fx-alignment:center;
+     -fx-font-size: 15px;
+     
+}
+
+
+
+.table-row-cell:hover {
+    -fx-background-color:  #d3e9ff;
+}
+
+.table-view:focused{
+ -fx-border-color: white;
+}
+
+
+

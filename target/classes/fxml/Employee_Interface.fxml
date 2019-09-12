@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="702.0" prefWidth="1637.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.theproject3.MainInterfaces.Employee_Interface">
+   <children>
+      <TableView fx:id="Bill" layoutX="27.0" layoutY="70.0" prefHeight="565.0" prefWidth="996.0">
+        <columns>
+          <TableColumn fx:id="BPro_No" prefWidth="124.0" text="Product No" />
+          <TableColumn fx:id="BPro_Name" prefWidth="389.0" text="Product Name" />
+            <TableColumn fx:id="BPrice" minWidth="5.0" prefWidth="195.0" text="Price(PerUnit)" />
+            <TableColumn fx:id="Q" minWidth="0.0" prefWidth="170.0" text="Quantity" />
+        </columns>
+      </TableView>
+      <Button id="button" layoutX="1222.0" layoutY="650.0" mnemonicParsing="false" onAction="#Add" prefHeight="37.0" prefWidth="111.0" text="Add" />
+      <TableView fx:id="ProductList" layoutX="1054.0" layoutY="70.0" prefHeight="565.0" prefWidth="557.0">
+         <columns>
+            <TableColumn fx:id="LPro_No" prefWidth="155.0" text="Product No" />
+            <TableColumn fx:id="LPro_Name" minWidth="0.0" prefWidth="199.0" text="Product Name" />
+            <TableColumn fx:id="LPrice" minWidth="5.0" prefWidth="201.0" text="Price(PerUnit)" />
+         </columns>
+      </TableView>
+      <Button id="button" layoutX="1355.0" layoutY="650.0" mnemonicParsing="false" onAction="#Remove" prefHeight="37.0" prefWidth="111.0" text="Remove" />
+      <DatePicker fx:id="Date" layoutX="121.0" layoutY="24.0" prefHeight="34.0" prefWidth="273.0" promptText="Bill Date" />
+      <Button id="button" fx:id="Search" layoutX="37.0" layoutY="24.0" mnemonicParsing="false" onAction="#Search" prefHeight="14.0" prefWidth="77.0" text="Serarch" />
+      <Button id="button" layoutX="55.0" layoutY="650.0" mnemonicParsing="false" onAction="#GenerateBill" prefHeight="37.0" prefWidth="189.0" text="Generate Bill" />
+      <Button id="button" layoutX="255.0" layoutY="650.0" mnemonicParsing="false" onAction="#NewBill" prefHeight="37.0" prefWidth="189.0" text="New Bill" />
+      <Text id="Total" fx:id="TotalLabel" fill="#afafaf" layoutX="462.0" layoutY="677.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total(X) :">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text id="Total" fx:id="NameLabel" fill="#afafaf" layoutX="414.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
